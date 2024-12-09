@@ -53,6 +53,12 @@ body{
     height: 100px;
     background-color: brown;
 }
+.link{
+    border: solid black 2px;
+    
+    
+    align-items: center;
+}
 
 
 

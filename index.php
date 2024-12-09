@@ -39,7 +39,7 @@
                 echo '<img src="' . $row["image_url"] .'" width="100px" height="100px" alt="HappyFace" / >';
                 echo '</div>';
                 echo '<h1>' . $row["album_name"] . '</h1>';
-                echo '<a href="artists.php?id=' . $row['artist_id'] . '">View Artist</a>';
+                echo '<a class="link" href="artists.php?id=' . $row['artist_id'] . '">View Artist</a>';
                 echo '</section>';
             }
         } else {
